@@ -1,0 +1,53 @@
+Question 
+1_ Are You Ready?
+ For Taking the First Step for Your Online Growth Solutions.
+Ans_ Yes / No 
+
+2_ Stage of Your Business
+
+•	I Have Just an Idea
+•	Start-up 
+•	Medium
+•	Large  
+
+3_ Please Write a Name of Your Business
+	{input}
+	{APP}{WEB}
+
+4_ choose your role for best to describe you
+
+•	I am Business Owner
+•	I am a Representative
+•	I am Freelancer
+•	I am Working Professional
+	Other
+
+
+5_ Does Your Business Have an Online Presence 
+
+Yes/No
+
+
+No worries! We will guide you with your first steps of starting online. (NO)
+Do you know with Digrowfa you can grow your business online and become a national brand easily? (YES)
+
+6_ Write a Short Description About Your Business 
+Ans {input}
+
+Congratulation…You Have Almost Done
+
+That’s great! We need a few more details to guide you with the new online journey!
+
+Please Share Some Information to get the best online growth solution for your business. 
+Make Your Choice
+
+. Yes, I want to grow my business 
+
+. No, I don’t want to grow my business
+
+Form (YES)
+
+•	Your Name 
+•	Contact Number 
+•	WhatsApp Number 
+•	Email Address 

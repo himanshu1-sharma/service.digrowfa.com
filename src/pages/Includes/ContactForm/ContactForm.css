@@ -1,0 +1,41 @@
+.formBg {
+    background-color: var(--primary);
+    padding: 8rem 0;
+}
+
+.addressIcon {
+    width: 60px;
+    height: 60px;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContent h4 {
+    color: var(--white);
+    font-size: 30px;
+    font-family: boldfont;
+    text-transform: uppercase;
+}
+
+.addressContentBox {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.addressContent {
+    margin-left: 1rem;
+    color: var(--white);
+}
+
+.addressContent h5 {
+    font-family: mediumfont;
+}
+
+.addressContent p {
+    color: var(--white);
+    opacity: 0.6;
+    margin: 0;
+}

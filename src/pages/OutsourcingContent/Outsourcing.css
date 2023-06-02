@@ -1,0 +1,593 @@
+.teamBg {
+    padding: 8rem 0;
+}
+
+.teamContent {
+    text-align: center;
+}
+
+.teamContent h4 {
+    font-family: boldfont;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 5px;
+    margin-bottom: 2rem;
+}
+
+.teamCard {
+    width: 339px;
+    height: 426px;
+    box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.05);
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../img/icons/circle.png);
+}
+
+.teamIcon {
+    width: 120px;
+    height: 120px;
+    background-color: var(--white);
+    border: 1px solid var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.teamIcon img {
+    max-width: 70px;
+}
+
+.teamCard.two .teamIcon img {
+    max-width: 50px;
+}
+
+.teamName h4 {
+    text-align: center;
+    font-family: boldfont;
+    text-transform: capitalize;
+    margin-top: 2rem;
+}
+
+.teamCard.one {
+    background-position: 0 -180px;
+}
+
+.teamCard.two {
+    background-position: 83px -95px;
+}
+
+.teamCard.three {
+    background-position: -125px 225px;
+}
+
+.freeConsultation button {
+    background-color: var(--secondary);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 10px 1rem;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+.outsourcingServiceBg {
+    padding: 8rem 0;
+    margin-top: 5rem;
+}
+
+.outsourcingServiceContent {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.outsourcingServiceContent h4 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: mediumfont;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.outsourcingServiceContent h4 span {
+    font-family: mediumfont;
+    color: var(--secondary);
+}
+
+.outsourcingServiceContent p {
+    margin: 1.5rem 0 2rem 0;
+    text-align: justify;
+}
+
+.outsourcingServiceImg img {
+    max-width: 80%;
+}
+
+.outsourcingBenefitsBg {
+    background-color: var(--primary);
+    padding: 8rem 0;
+}
+
+.outsourcingBenefitsTitle h2 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: mediumfont;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    margin: 0;
+    color: var(--white);
+}
+
+.outsourcingBenefitsTitle h2 span {
+    font-family: mediumfont;
+    color: var(--secondary);
+}
+
+.outsourcingBenefitsContent h4 {
+    color: var(--white);
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-family: mediumfont;
+}
+
+.outsourcingBenefitsContent p {
+    color: var(--white);
+    opacity: 0.6;
+    margin-top: 1rem;
+}
+
+.outsourcingBenefitsContent.two {
+    align-items: flex-end;
+}
+
+.outsourcingBenefitsContent img {
+    max-width: 80%;
+}
+
+.outsourcingBenefitsContent {
+    margin: 5rem 0;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.outsourcingBenefitsParagraph {
+    margin: 10rem 0 0 0;
+    color: var(--white);
+    opacity: 0.6;
+    text-align: center;
+}
+
+.outsourcingFormBg {
+    background-color: var(--primary);
+    padding: 8rem 0;
+}
+
+.outsourcingForm {
+    text-align: center;
+}
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .teamContent h4 {
+        font-size: 22px;
+    }
+
+    .teamCard {
+        width: 100%;
+        height: 320px;
+    }
+
+    .teamContent p {
+        text-align: justify;
+    }
+
+    .outsourcingServiceContent h4 {
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0;
+    }
+
+    .outsourcingBenefitsTitle h2 {
+        font-size: 20px;
+    }
+
+    .outsourcingBenefitsContent h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .freeConsultation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent {
+        margin: 0;
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent p {
+        margin: 0;
+        text-align: center;
+    }
+
+    .outsourcingBenefitsContent.two {
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent img {
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .outsourcingServiceImg {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .teamContent h4 {
+        font-size: 22px;
+    }
+
+    .teamCard {
+        width: 100%;
+        height: 320px;
+    }
+
+    .teamContent p {
+        text-align: justify;
+    }
+
+    .outsourcingServiceContent h4 {
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0;
+    }
+
+    .outsourcingBenefitsTitle h2 {
+        font-size: 20px;
+    }
+
+    .outsourcingBenefitsContent h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .freeConsultation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent {
+        margin: 0;
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent p {
+        margin: 0;
+        text-align: center;
+    }
+
+    .outsourcingBenefitsContent.two {
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent img {
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .outsourcingServiceImg {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .teamContent h4 {
+        font-size: 22px;
+    }
+
+    .teamCard {
+        width: 100%;
+        height: 320px;
+    }
+
+    .teamContent p {
+        text-align: justify;
+    }
+
+    .outsourcingServiceContent h4 {
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0;
+    }
+
+    .outsourcingBenefitsTitle h2 {
+        font-size: 20px;
+    }
+
+    .outsourcingBenefitsContent h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .freeConsultation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent {
+        margin: 0;
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent p {
+        margin: 0;
+        text-align: center;
+    }
+
+    .outsourcingBenefitsContent.two {
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent img {
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .outsourcingServiceImg {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .teamContent h4 {
+        font-size: 22px;
+    }
+
+    .teamCard {
+        width: 100%;
+        height: 320px;
+    }
+
+    .teamContent p {
+        text-align: justify;
+    }
+
+    .outsourcingServiceContent h4 {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+    .outsourcingBenefitsTitle h2 {
+        font-size: 20px;
+    }
+
+    .outsourcingBenefitsContent h4 {
+        font-size: 20px;
+    }
+
+
+
+    .outsourcingBenefitsContent {
+        margin: 0;
+    }
+
+    .outsourcingBenefitsContent p {
+        margin: 0;
+    }
+
+
+
+    .outsourcingBenefitsContent img {
+        margin: 6rem 0;
+    }
+
+    .outsourcingServiceImg {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .teamContent h4 {
+        font-size: 22px;
+    }
+
+    .teamCard {
+        width: 100%;
+        height: 320px;
+    }
+
+    .teamContent p {
+        text-align: justify;
+    }
+
+    .outsourcingServiceContent h4 {
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0;
+    }
+
+    .outsourcingBenefitsTitle h2 {
+        font-size: 20px;
+    }
+
+    .outsourcingBenefitsContent h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .freeConsultation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent {
+        margin: 0;
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent p {
+        margin: 0;
+        text-align: center;
+    }
+
+    .outsourcingBenefitsContent.two {
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent img {
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .outsourcingServiceImg {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .teamContent h4 {
+        font-size: 22px;
+    }
+
+    .teamCard {
+        width: 100%;
+        height: 320px;
+    }
+
+    .teamContent p {
+        text-align: justify;
+    }
+
+    .outsourcingServiceContent h4 {
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0;
+    }
+
+    .outsourcingBenefitsTitle h2 {
+        font-size: 20px;
+    }
+
+    .outsourcingBenefitsContent h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .freeConsultation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent {
+        margin: 0;
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent p {
+        margin: 0;
+        text-align: center;
+    }
+
+    .outsourcingBenefitsContent.two {
+        align-items: center;
+    }
+
+    .outsourcingBenefitsContent img {
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .outsourcingServiceImg {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+    .teamContent h4 {
+        font-size: 22px;
+    }
+
+    .teamCard {
+        width: 100%;
+        height: 320px;
+    }
+
+    .teamContent p {
+        text-align: justify;
+    }
+
+    .outsourcingServiceContent h4 {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+    .outsourcingBenefitsTitle h2 {
+        font-size: 20px;
+    }
+
+    .outsourcingBenefitsContent h4 {
+        font-size: 20px;
+    }
+
+
+
+    .outsourcingBenefitsContent {
+        margin: 0;
+    }
+
+    .outsourcingBenefitsContent p {
+        margin: 0;
+    }
+
+
+
+    .outsourcingBenefitsContent img {
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .outsourcingServiceImg {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}

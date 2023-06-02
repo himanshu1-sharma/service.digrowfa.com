@@ -1,0 +1,1553 @@
+.serviceExplore {
+    background-color: #000000;
+}
+
+/* ====header====== */
+
+.serviceExploreBg {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary);
+    /* background-image: url(../../img/service/header.png); */
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.serviceHeaderVideo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.serviceHeaderVideo video {
+    width: 100% !important;
+    height: 111% !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+
+.serviceHeaderContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.serviceHeaderContent h1 {
+    font-family: extrabold;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 80px;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+}
+
+.serviceHeaderContent h3 {
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 70px;
+    margin-bottom: 2rem;
+}
+
+.serviceHeaderContent p {
+    opacity: 0.7;
+    color: var(--white);
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+/* .serviceExploreSection2,
+.serviceExploreSection3 {
+    position: relative;
+    padding: 5rem 0;
+    width: 100%;
+    height: 95vh;
+} */
+
+/* .serviceExploreSection2 {
+    background-color: #1BA4D2;
+} */
+
+
+.section2ContentImg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.section2ContentImg img {
+    max-width: 80%;
+}
+
+.section2Content,
+.section3Content {
+    padding: 1rem;
+}
+
+.serviceExploreSection2 {
+    position: relative;
+    /* background-color: #1BA4D2; */
+    width: 80%;
+    margin: 3rem auto;
+    padding: 5rem 0;
+    border-radius: 180px;
+    overflow: hidden;
+}
+
+.section2ContentBox,
+.section3ContentBox {
+    /* margin-top: 5rem; */
+    position: relative;
+    z-index: 1;
+}
+
+.section2ContentBox h4,
+.section3ContentBox h4 {
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: mediumfont;
+}
+
+.section5ContentBox {
+    color: var(--white);
+}
+
+.section2ContentBox p,
+.section3ContentBox p {
+    font-size: 18px;
+    opacity: 0.8;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.section2ContentBox.one h4,
+.section2ContentBox.one p,
+.section2ContentBox.two h4,
+.section2ContentBox.two p {
+    color: var(--white);
+}
+
+
+
+.section2ContentBox.two,
+.section3ContentBox.two {
+    margin-top: 10rem;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    flex-direction: column;
+}
+
+.section3ContentBox.one {
+    margin-top: 25%;
+}
+
+.section3ContentBox.two {
+    margin-top: 60%;
+}
+
+.serviceExploreSection3 {
+    /* background-image: url(../../img/service/girl_on_mount.png); */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: bottom;
+    background-size: 30%;
+    background-color: var(--white);
+    width: 80%;
+    height: 600px;
+    margin: 3rem auto;
+    padding: 5rem 0;
+    border-radius: 180px;
+}
+
+.servideHeaderOverlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(transparent, black);
+}
+
+.title h2 {
+    text-align: center;
+    color: #1BA4D2;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: boldfont;
+}
+
+.workingprocessTitle h2 {
+    text-align: center;
+    margin-top: 3rem;
+    color: var(--white);
+    font-family: extrabold;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 40px;
+}
+
+
+.serviceExploreSection5 {
+    width: 80%;
+    height: 600px;
+    position: relative;
+    margin: 0 auto 5rem auto;
+    border-radius: 180px;
+    overflow: hidden;
+}
+
+.serviceExploreSection4 {
+    width: 100%;
+    height: max-content;
+    position: relative;
+}
+
+.workingProcessSteps {
+    margin-top: 5rem;
+}
+
+.workingProcessSteps .vertical-timeline--animate .vertical-timeline-element-icon.bounce-in {
+    display: none;
+}
+
+.workingProcessSteps .vertical-timeline--two-columns .vertical-timeline-element-content-arrow {
+    display: none;
+}
+
+.workingProcessSteps .vertical-timeline-element-content {
+    background-color: transparent;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.workingProcessSteps .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+
+.stepsNumber {
+    width: 140px;
+    height: 120px;
+    background-color: #333333;
+    color: var(--white);
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: extrabold;
+    border-radius: 20px;
+}
+
+.stepName {
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: boldfont;
+    font-size: 26px;
+    margin-top: 1.5rem;
+}
+
+.workingProcessSteps .vertical-timeline::before {
+    background-color: transparent;
+    background-image: url(../../img/icons/line.png);
+    border: none;
+}
+
+.section4ContentBox {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    margin: 1rem 0 0 0;
+}
+
+.section4ContentBox .number {
+    font-size: 70px;
+    font-family: boldfont;
+}
+
+.section4ContentBox .content p {
+    margin: 0;
+    font-size: 32px;
+    font-family: mediumfont;
+}
+
+.section4ContentBox.one .number {
+    margin-right: 2.5rem;
+}
+
+.section4ContentBox.two .number {
+    margin-left: 2.5rem;
+}
+
+.section4ContentBox.two {
+    text-align: right;
+}
+
+
+
+.startBtn {
+    width: max-content;
+    border: 2px solid var(--white);
+    padding: 8px;
+    border-radius: 50px;
+    margin-top: 3rem;
+}
+
+.startBtn button {
+    border-radius: 50px;
+    background-color: var(--white);
+    padding: 1rem 3rem;
+    font-size: 26px;
+    border: none;
+    outline: none;
+    font-family: mediumfont;
+    letter-spacing: 0.2em;
+}
+
+.categorySvg svg {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 80%;
+    height: 55%;
+    right: 0;
+}
+
+.conversationBg {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #000000;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.snowBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.startContent {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem 0;
+}
+
+.startContent h2 {
+    color: var(--white);
+    font-family: extrabold;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.conversationBox {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    z-index: 1;
+    margin-top: 5rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.conversationBox::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+.conversationBox::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.conversationBox::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.conversationBox label {
+    width: 100%;
+}
+
+.suggestions {
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+    border-radius: 50px;
+    padding: 8px 30px;
+    width: 100%;
+    background: var(--primary);
+    margin-bottom: 1.5rem;
+    font-family: mediumfont;
+}
+
+.messageBox {
+    border-radius: 50px;
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.messageBox p {
+    padding: 8px 30px;
+    margin: 0;
+    font-family: mediumfont;
+}
+
+.messageBox input,
+.messageBox textarea {
+    width: 300px;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--white);
+    padding: 10px 30px;
+}
+
+.messageBox textarea {
+    resize: none;
+    padding: 1rem 30px 10px 30px;
+}
+
+.messageBox button {
+    background-color: var(--secondary);
+    color: var(--white);
+    padding: 8px 20px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+.question {
+    max-width: 70%;
+}
+
+.question .messageBox {
+    background-color: var(--white);
+}
+
+.answer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.answer .messageBox {
+    border: 1px solid var(--white);
+    color: var(--white);
+    background-color: var(--primary);
+    cursor: pointer;
+    width: max-content;
+}
+
+
+
+
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .serviceHeaderContent {
+        padding: 1rem;
+    }
+
+    .serviceHeaderContent h1 {
+        font-size: 30px;
+    }
+
+    .serviceHeaderContent h3 {
+        font-size: 30px;
+    }
+
+    .serviceHeaderContent p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        text-align: center;
+    }
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        font-size: 24px;
+    }
+
+    .section2ContentBox p,
+    .section3ContentBox p {
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .section2ContentBox.two,
+    .section3ContentBox.two {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .section2ContentImg img {
+        max-width: 100%;
+    }
+
+    .serviceExploreSection2,
+    .serviceExploreSection3 {
+        width: 95%;
+        height: 885px;
+    }
+
+    .serviceExploreSection3 {
+        background-size: 90%;
+    }
+
+    .section3ContentBox.one {
+        margin-top: 10%;
+    }
+
+    .workingprocessTitle h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .stepsNumber {
+        width: 100px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .stepName {
+        font-size: 20px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element-content {
+        margin-left: 40px;
+    }
+
+    .serviceExploreSection5 {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .startBtn {
+        margin: 3rem auto;
+    }
+
+    .startBtn button {
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+
+    .messageBox input {
+        width: 100%;
+    }
+
+    .messageBox textarea {
+        width: 200px;
+    }
+
+    .question {
+        max-width: 100%;
+    }
+
+    .formContent button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .serviceHeaderContent {
+        padding: 1rem;
+    }
+
+    .serviceHeaderContent h1 {
+        font-size: 30px;
+    }
+
+    .serviceHeaderContent h3 {
+        font-size: 30px;
+    }
+
+    .serviceHeaderContent p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        text-align: center;
+    }
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        font-size: 24px;
+    }
+
+    .section2ContentBox p,
+    .section3ContentBox p {
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .section2ContentBox.two,
+    .section3ContentBox.two {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .section2ContentImg img {
+        max-width: 100%;
+    }
+
+    .serviceExploreSection2,
+    .serviceExploreSection3 {
+        width: 95%;
+        height: 885px;
+    }
+
+    .serviceExploreSection3 {
+        background-size: 90%;
+    }
+
+    .section3ContentBox.one {
+        margin-top: 10%;
+    }
+
+    .workingprocessTitle h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .stepsNumber {
+        width: 100px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .stepName {
+        font-size: 20px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element-content {
+        margin-left: 40px;
+    }
+
+    .serviceExploreSection5 {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .startBtn {
+        margin: 3rem auto;
+    }
+
+    .startBtn button {
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+
+    .messageBox input {
+        width: 100%;
+    }
+
+    .messageBox textarea {
+        width: 200px;
+    }
+
+    .question {
+        max-width: 100%;
+    }
+
+    .formContent button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .serviceHeaderContent {
+        padding: 1rem;
+    }
+
+    .serviceHeaderContent h1 {
+        font-size: 30px;
+    }
+
+    .serviceHeaderContent h3 {
+        font-size: 30px;
+    }
+
+    .serviceHeaderContent p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        text-align: center;
+    }
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        font-size: 24px;
+    }
+
+    .section2ContentBox p,
+    .section3ContentBox p {
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .section2ContentBox.two,
+    .section3ContentBox.two {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .section2ContentImg img {
+        max-width: 100%;
+    }
+
+    .serviceExploreSection2,
+    .serviceExploreSection3 {
+        width: 95%;
+        height: 1000px;
+    }
+
+    .serviceExploreSection3 {
+        background-size: 90%;
+    }
+
+    .section3ContentBox.one {
+        margin-top: 10%;
+    }
+
+    .workingprocessTitle h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .stepsNumber {
+        width: 100px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .stepName {
+        font-size: 20px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element-content {
+        margin-left: 40px;
+    }
+
+    .serviceExploreSection5 {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .startBtn {
+        margin: 3rem auto;
+    }
+
+    .startBtn button {
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+
+    .messageBox input {
+        width: 100%;
+    }
+
+    .messageBox textarea {
+        width: 200px;
+    }
+
+    .question {
+        max-width: 100%;
+    }
+
+    .formContent button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .serviceHeaderContent {
+        padding: 1rem;
+    }
+
+    .serviceHeaderContent h1 {
+        font-size: 30px;
+    }
+
+    .serviceHeaderContent h3 {
+        font-size: 30px;
+    }
+
+    .serviceHeaderContent p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        text-align: center;
+    }
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        font-size: 24px;
+    }
+
+    .section2ContentBox p,
+    .section3ContentBox p {
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .section2ContentBox.two,
+    .section3ContentBox.two {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+    .serviceExploreSection2,
+    .serviceExploreSection3 {
+        width: 95%;
+        height: 1000px;
+    }
+
+    .serviceExploreSection3 {
+        background-size: 70%;
+    }
+
+    .section3ContentBox.one {
+        margin-top: 10%;
+    }
+
+    .workingprocessTitle h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .stepsNumber {
+        width: 100px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .stepName {
+        font-size: 20px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element-content {
+        margin-left: 40px;
+    }
+
+    .serviceExploreSection5 {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .startBtn {
+        margin: 3rem auto;
+    }
+
+    .startBtn button {
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+
+    .messageBox input {
+        width: 100%;
+    }
+
+    .messageBox textarea {
+        width: 200px;
+    }
+
+    .question {
+        max-width: 100%;
+    }
+
+    .formContent button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .serviceHeaderContent {
+        padding: 1rem;
+    }
+
+    .serviceHeaderContent h1 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent h3 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent p {
+        width: 100%;
+    }
+
+
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        font-size: 24px;
+    }
+
+    .section2ContentBox p,
+    .section3ContentBox p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .section2ContentBox.two,
+    .section3ContentBox.two {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+
+
+    .serviceExploreSection2,
+    .serviceExploreSection3 {
+        width: 95%;
+        height: 1000px;
+    }
+
+    .serviceExploreSection3 {
+        background-size: 70%;
+    }
+
+    .section3ContentBox.one {
+        margin-top: 10%;
+    }
+
+    .workingprocessTitle h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .stepsNumber {
+        width: 100px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .stepName {
+        font-size: 20px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element-content {
+        margin-left: 40px;
+    }
+
+    .serviceExploreSection5 {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .startBtn {
+        margin: 3rem auto;
+    }
+
+    .startBtn button {
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .serviceHeaderContent {
+        padding: 1rem;
+    }
+
+    .serviceHeaderContent h1 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent h3 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent p {
+        width: 100%;
+    }
+
+
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        font-size: 24px;
+    }
+
+    .section2ContentBox p,
+    .section3ContentBox p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .section2ContentBox.two,
+    .section3ContentBox.two {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+
+
+    .serviceExploreSection2,
+    .serviceExploreSection3 {
+        width: 95%;
+        height: 1000px;
+    }
+
+    .serviceExploreSection3 {
+        background-size: 70%;
+    }
+
+    .section3ContentBox.one {
+        margin-top: 10%;
+    }
+
+    .workingprocessTitle h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .stepsNumber {
+        width: 100px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .stepName {
+        font-size: 20px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element-content {
+        margin-left: 40px;
+    }
+
+    .serviceExploreSection5 {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .startBtn {
+        margin: 3rem auto;
+    }
+
+    .startBtn button {
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+    .serviceHeaderContent {
+        padding: 1rem;
+    }
+
+    .serviceHeaderContent h1 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent h3 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent p {
+        width: 100%;
+    }
+
+
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        font-size: 24px;
+    }
+
+    .section2ContentBox p,
+    .section3ContentBox p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .section2ContentBox.two,
+    .section3ContentBox.two {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+
+
+    .serviceExploreSection2,
+    .serviceExploreSection3 {
+        width: 95%;
+        height: 1000px;
+    }
+
+    .serviceExploreSection3 {
+        background-size: 50%;
+    }
+
+    .section3ContentBox.one {
+        margin-top: 10%;
+    }
+
+    .workingprocessTitle h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .stepsNumber {
+        width: 100px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .stepName {
+        font-size: 20px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element-content {
+        margin-left: 40px;
+    }
+
+    .serviceExploreSection5 {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .startBtn {
+        margin: 3rem 0;
+    }
+
+    .startBtn button {
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+
+    .section2ContentImg img {
+        max-width: 70%;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {
+    .serviceHeaderContent {
+        padding: 1rem;
+    }
+
+    .serviceHeaderContent h1 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent h3 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent p {
+        width: 100%;
+    }
+
+
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        font-size: 24px;
+    }
+
+    .section2ContentBox p,
+    .section3ContentBox p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .section2ContentBox.two,
+    .section3ContentBox.two {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+
+
+    .serviceExploreSection2,
+    .serviceExploreSection3 {
+        width: 95%;
+        height: 1000px;
+    }
+
+    .serviceExploreSection3 {
+        background-size: 50%;
+    }
+
+    .section3ContentBox.one {
+        margin-top: 10%;
+    }
+
+    .workingprocessTitle h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .stepsNumber {
+        width: 100px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .stepName {
+        font-size: 20px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element-content {
+        margin-left: 40px;
+    }
+
+    .serviceExploreSection5 {
+        width: 95%;
+        padding: 3rem;
+    }
+
+    .startBtn {
+        margin: 3rem 0;
+    }
+
+    .startBtn button {
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+
+    .section2ContentImg img {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {
+    .serviceHeaderContent {
+        padding: 1rem;
+    }
+
+    .serviceHeaderContent h1 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent h3 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent p {
+        width: 100%;
+    }
+
+
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        font-size: 24px;
+    }
+
+    .section2ContentBox p,
+    .section3ContentBox p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .section2ContentBox.two,
+    .section3ContentBox.two {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+
+
+    .serviceExploreSection2,
+    .serviceExploreSection3 {
+        width: 95%;
+        height: 1000px;
+    }
+
+    .serviceExploreSection3 {
+        background-size: 50%;
+    }
+
+    .section3ContentBox.one {
+        margin-top: 10%;
+    }
+
+    .workingprocessTitle h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .stepsNumber {
+        width: 100px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .stepName {
+        font-size: 20px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element-content {
+        margin-left: 40px;
+    }
+
+    .serviceExploreSection5 {
+        width: 95%;
+        padding: 3rem;
+    }
+
+    .startBtn {
+        margin: 3rem 0;
+    }
+
+    .startBtn button {
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+
+    .section2ContentImg img {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {
+    .serviceHeaderContent {
+        padding: 1rem;
+    }
+
+    .serviceHeaderContent h1 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent h3 {
+        font-size: 50px;
+    }
+
+    .serviceHeaderContent p {
+        width: 100%;
+    }
+
+
+
+    .section2ContentBox h4,
+    .section3ContentBox h4 {
+        font-size: 24px;
+    }
+
+    .section2ContentBox p,
+    .section3ContentBox p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .section2ContentBox.two,
+    .section3ContentBox.two {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+
+
+    .serviceExploreSection2,
+    .serviceExploreSection3 {
+        width: 95%;
+        height: 1000px;
+    }
+
+    .serviceExploreSection3 {
+        background-size: 50%;
+    }
+
+    .section3ContentBox.one {
+        margin-top: 10%;
+    }
+
+    .workingprocessTitle h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element:nth-child(odd) .vertical-timeline-element-content {
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .stepsNumber {
+        width: 100px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .stepName {
+        font-size: 20px;
+    }
+
+    .workingProcessSteps .vertical-timeline-element-content {
+        margin-left: 40px;
+    }
+
+    .serviceExploreSection5 {
+        width: 95%;
+        padding: 3rem;
+    }
+
+    .startBtn {
+        margin: 3rem 0;
+    }
+
+    .startBtn button {
+        padding: 1rem 1rem;
+        font-size: 18px;
+    }
+
+    .section2ContentImg img {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {
+    .section2ContentImg img {
+        max-width: 60%;
+    }
+
+    .serviceExploreSection2,
+    .serviceExploreSection3,
+    .serviceExploreSection5 {
+        width: 95%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {
+    .section2ContentImg img {
+        max-width: 60%;
+    }
+
+    .serviceExploreSection2,
+    .serviceExploreSection3,
+    .serviceExploreSection5 {
+        width: 95%;
+    }
+
+    .serviceExploreSection2,
+    .serviceExploreSection3 {
+        padding: 5rem;
+    }
+
+    .section3ContentBox.two {
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}

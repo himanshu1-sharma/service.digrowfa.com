@@ -1,0 +1,525 @@
+.jobCardBg {
+    background-color: var(--primary);
+    padding: 5rem 0;
+}
+
+.jobTitle h2 {
+    color: var(--white);
+    font-family: extrabold;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+.jobTitle h2 span {
+    color: var(--secondary);
+    font-family: extrabold;
+    text-transform: uppercase;
+}
+
+.jobTitle p {
+    color: var(--white);
+    opacity: 0.6;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.jobCard {
+    width: 100%;
+    background-color: var(--primary);
+    background-color: var(--white);
+    margin-top: 2rem;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.jobNameBox {
+    padding: 2rem 2rem 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.urgent {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.urgent span {
+    background-color: #ffecec;
+    color: #e21010;
+    font-family: mediumfont;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.jobNameBox h4 {
+    font-family: mediumfont;
+    font-size: 26px;
+}
+
+.jobNameBox span {
+    background-color: #e9f3ff;
+    padding: 5px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+.jobTypeList {
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.jobTypeList ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jobTypeList ul li {
+    margin-right: 2rem;
+    font-size: 16px;
+}
+
+.jobTypeList ul li svg {
+    color: var(--secondary);
+    margin-right: 5px;
+}
+
+.jobSkills {
+    padding: 0 2rem 0rem 2rem;
+}
+
+.jobSkills ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jobSkills ul li {
+    margin: 0 1rem 1rem 0;
+    background-color: #e9f3ff;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 6px;
+    width: max-content;
+}
+
+.jobDetailBox {
+    padding: 0 2rem 2rem 2rem;
+}
+
+.jobDetailBox ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #e9f3ff;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: var(--primary);
+}
+
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: var(--secondary);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+
+.jobDetailBg {
+    background-color: var(--primary);
+    padding: 12rem 0;
+}
+
+.joDetailLeftPanel {
+    color: var(--white);
+}
+
+.joDetailLeftPanel div {
+    background-color: #ffecec;
+    color: #e21010;
+    font-family: mediumfont;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.joDetailLeftPanel h1 {
+    font-family: boldfont;
+    font-size: 46px;
+    margin: 1rem 0;
+}
+
+.joDetailLeftPanel ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.joDetailLeftPanel ul svg {
+    color: var(--secondary);
+    margin-right: 10px;
+}
+
+.joDetailLeftPanel ul li {
+    margin-bottom: 1rem;
+}
+
+.joDetailLeftPanel ul li span {
+    opacity: 0.6;
+}
+
+.joDetailLeftPanel button {
+    width: 100%;
+    padding: 1.2rem;
+    background-color: var(--secondary);
+    color: var(--white);
+    font-family: mediumfont;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin-top: 1.5rem;
+}
+
+.jobDetail {
+    padding-left: 2rem;
+}
+
+.jobDetail h4 {
+    color: var(--white);
+    font-family: mediumfont;
+    border-bottom: 1px solid #171717;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.jobDetail p {
+    color: var(--white);
+    opacity: 0.6;
+    margin-bottom: 3rem;
+}
+
+.jobDetail ul {
+    margin-bottom: 3rem;
+}
+
+.jobDetail ul li {
+    margin-bottom: 1rem;
+    color: var(--white);
+    opacity: 0.6;
+}
+
+.applyTitle h2 {
+    color: var(--white);
+    font-family: extrabold;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin: 3rem 0 4rem 0;
+}
+
+.formContent form label {
+    color: var(--white);
+    font-size: 18px;
+}
+
+.joDetailLeftPanel.active {
+    position: sticky;
+    top: 60px;
+    z-index: 999;
+    padding-top: 1rem;
+    background-color: var(--primary);
+    z-index: 0;
+}
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .jobTitle h2 {
+        font-size: 24px;
+
+    }
+
+    .jobNameBox {
+        display: inherit;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .jobTypeList {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .jobSkills ul li {
+        font-size: 12px;
+    }
+
+    .jobSkills {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .jobNameBox h4 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    .jobTypeList ul {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .jobTypeList ul li {
+        font-size: 12px;
+    }
+
+    .jobDetailBox {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .joDetailLeftPanel h1 {
+        font-size: 28px;
+    }
+
+    .jobDetailBg {
+        padding: 5rem 0;
+    }
+
+    .jobDetail {
+        padding-left: 0;
+        margin-top: 3rem;
+    }
+
+    .applyTitle h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .jobTitle h2 {
+        font-size: 24px;
+
+    }
+
+    .jobNameBox {
+        display: inherit;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .jobTypeList {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .jobSkills ul li {
+        font-size: 12px;
+    }
+
+    .jobSkills {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .jobNameBox h4 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    .jobTypeList ul {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .jobTypeList ul li {
+        font-size: 12px;
+    }
+
+    .jobDetailBox {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .jobDetailBg {
+        padding: 5rem 0;
+    }
+
+    .jobDetail {
+        padding-left: 0;
+        margin-top: 3rem;
+    }
+
+    .applyTitle h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .jobTitle h2 {
+        font-size: 24px;
+
+    }
+
+    .jobNameBox {
+        display: inherit;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .jobTypeList {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .jobSkills ul li {
+        font-size: 12px;
+    }
+
+    .jobSkills {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .jobNameBox h4 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    .jobTypeList ul {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .jobTypeList ul li {
+        font-size: 12px;
+    }
+
+    .jobDetailBox {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .jobDetailBg {
+        padding: 5rem 0;
+    }
+
+    .jobDetail {
+        padding-left: 0;
+        margin-top: 3rem;
+    }
+
+    .applyTitle h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .jobTitle h2 {
+        font-size: 24px;
+
+    }
+
+    .jobNameBox {
+        display: inherit;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .jobTypeList {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+
+
+    .jobSkills {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .jobNameBox h4 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    .jobTypeList ul {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+
+
+    .jobDetailBox {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .jobDetailBg {
+        padding: 5rem 0;
+    }
+
+    .jobDetail {
+        padding-left: 0;
+        margin-top: 3rem;
+    }
+
+    .applyTitle h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}

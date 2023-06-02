@@ -1,0 +1,385 @@
+.homeHeaderContent.form {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+    padding: 3rem;
+    width: 400px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.formBox label {
+    color: var(--white);
+}
+
+.formBox input,
+.formBox select,
+.formBox textarea {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid var(--secondary);
+    padding: 10px 15px;
+    border-radius: none;
+    color: var(--white) !important;
+}
+
+.formBox select option {
+    background-color: var(--primary);
+}
+
+.formBtn button {
+    background-color: var(--secondary);
+    padding: 10px 30px;
+    color: var(--white);
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+.MuiMenuItem-root {
+    color: var(--white) !important;
+}
+
+.MuiPaper-root {
+    color: var(--white) !important;
+}
+
+.addSteps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addSteps input {
+    width: 82%;
+}
+
+.addSteps button {
+    border: 1px solid var(--secondary);
+    padding: 10px 15px;
+    background-color: var(--secondary);
+    color: var(--white);
+    outline: none;
+    border-radius: 6px;
+}
+
+.deleteStep {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: red;
+    margin-left: 1rem;
+}
+
+.formTitle h5 {
+    color: var(--white);
+    font-family: mediumfont;
+    border-bottom: 1px solid var(--white);
+    padding: 10px 0;
+    margin: 1rem 0;
+}
+
+.dashboardBg {
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 3rem;
+    background-color: var(--primary);
+    position: fixed;
+    z-index: -1;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.dashboardContentBg {
+    padding: 4rem 0 0 0;
+
+}
+
+.dashboardTitle h2 {
+    color: var(--white);
+    font-family: mediumfont;
+    font-size: 26px;
+}
+
+.dashboardTable {
+    padding-right: 1rem;
+}
+
+.categoryTableIcon {
+    max-width: 60px !important;
+}
+
+.tableBtn button {
+    background-color: var(--secondary);
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    color: var(--white);
+}
+
+.tableModal .modal-content {
+    background-color: var(--primary) !important;
+    border: 1px solid var(--secondary);
+}
+
+.tableModal .modal-content h4 {
+    color: var(--white);
+    margin-bottom: 2rem;
+    font-size: 22px;
+    font-family: mediumfont;
+}
+
+.deleteConfirm {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.deleteConfirm h5 {
+    color: var(--white);
+    font-family: mediumfont;
+}
+
+.deleteConfirm button {
+    margin: 10px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+
+
+
+
+.MuiPaper-root {
+    background-color: var(--primary) !important;
+    border: 1px solid var(--white);
+}
+
+.MuiTableCell-root {
+    background-color: var(--primary) !important;
+}
+
+.MuiTableCell-root span,
+.MuiTableCell-root span div {
+    color: var(--white);
+    font-family: mediumfont;
+}
+
+
+.MuiTableRow-root td {
+    color: var(--white) !important;
+}
+
+.MuiInputBase-input {
+    color: var(--white) !important;
+
+}
+
+.MuiInput-underline:before {
+    border-color: var(--white) !important;
+}
+
+.MuiSvgIcon-root {
+    color: var(--white);
+}
+
+.closeModalBtn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: var(--white);
+    background-color: var(--secondary);
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.editCategoryBg {
+    background-color: var(--primary);
+    width: 100%;
+    height: 100vh;
+    padding: 5rem 0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.editCategoryBg h2 {
+    color: var(--white);
+}
+
+.dashboardAction button {
+    border: none;
+    background-color: transparent;
+    color: var(--white);
+    outline: none;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: mediumfont;
+}
+
+.statusModal .modal-content {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+
+.statusModal .modal-title {
+    color: var(--white);
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: mediumfont;
+}
+
+.statusModal .modal-header .btn-close {
+    background-color: var(--white);
+}
+
+.statusTag button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-family: mediumfont;
+}
+
+.statusTag .notInterested {
+    background-color: #ffbfbf;
+    color: red;
+}
+
+.statusTag .converted {
+    background-color: #DDFFEE;
+    color: #10C469;
+}
+
+.statusTag .ongoing {
+    background-color: #ddc8ff;
+    color: #6610f2;
+}
+
+.statusTag .pending {
+    background-color: #ffddee;
+    color: #d63384;
+}
+
+.userChatModal .modal-content {
+    background-color: var(--primary);
+    border: 1px solid var(--white);
+}
+
+.userChatModal .modal-content .modal-body .conversationBox {
+    margin: 0;
+}
+
+.dashboardAction button:first-child {
+    margin-right: 10px;
+}
+
+.dashboardAction .action {
+    background-color: #dc3545;
+}
+
+.dashboardAction .view {
+    background-color: var(--secondary);
+}
+
+.qnaBox .accordion .accordion-item {
+    background-color: var(--primary);
+}
+
+.qnaBox .accordion .messageBox {
+    background-color: var(--white);
+    width: max-content;
+}
+
+.qnaBox .accordion .suggestions {
+    width: max-content;
+}
+
+.qnaBox .accordion .accordion-item .accordion-header button {
+    background-color: var(--primary);
+    color: var(--white);
+    font-family: mediumfont;
+}
+
+.qnaBox .accordion .accordion-item .accordion-header button span {
+    background-color: var(--secondary);
+    font-size: 14px;
+    color: var(--white);
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-family: mediumfont;
+    margin-right: 1rem;
+}
+
+.qnaBox .accordion .accordion-button::after {
+    background-color: var(--white);
+    border-radius: 6px;
+}
+
+.customRadio input[type="radio"]:checked,
+.customRadio input[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+.customRadio input[type="radio"]:checked+label,
+.customRadio input[type="radio"]:not(:checked)+label {
+    position: relative;
+    padding-left: 2rem;
+    cursor: pointer;
+    display: inline-block;
+    color: var(--white);
+}
+
+.customRadio input[type="radio"]:checked+label:before,
+.customRadio input[type="radio"]:not(:checked)+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--secondary);
+    border-radius: 100%;
+    background: transparent;
+}
+
+.customRadio input[type="radio"]:checked+label:after,
+.customRadio input[type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 17px;
+    height: 17px;
+    background: var(--secondary);
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.customRadio input[type="radio"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.customRadio input[type="radio"]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.customRadio .form-check {
+    padding-left: 0;
+}

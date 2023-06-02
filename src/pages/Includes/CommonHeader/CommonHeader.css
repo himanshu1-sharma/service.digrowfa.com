@@ -1,0 +1,267 @@
+.headerBg {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary);
+    position: relative;
+}
+
+.headerContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.headerContent h1 {
+    font-size: 40px;
+    color: var(--white);
+    font-family: mediumfont;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin-bottom: 4rem;
+}
+
+.headerContent h5 {
+    color: var(--white);
+    font-family: boldfont;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.headerContent h5 span {
+    font-family: boldfont;
+    font-size: 50px;
+    color: var(--secondary);
+}
+
+.downAnimation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.downAnimation:hover {
+    opacity: 0.5;
+}
+
+.downAnimation span {
+    color: var(--white);
+    font-size: 14px;
+    font-size: mediumfont;
+    letter-spacing: 0.3em;
+    margin-top: 10px;
+}
+
+.downAnimation div {
+    width: 30px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid var(--white);
+    position: relative;
+    margin-top: 8rem;
+}
+
+.downAnimation div::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: var(--white);
+    border-radius: 50%;
+    -webkit-animation: scrollDown 2s infinite;
+    animation: scrollDown 2s infinite;
+}
+
+@-webkit-keyframes scrollDown {
+    0% {
+        -webkit-transform: translate(0, 0);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: translate(0, 20px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes scrollDown {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .headerContent h5 {
+        font-size: 24px;
+    }
+
+    .headerContent h5 span {
+        font-size: 24px;
+    }
+
+    .headerContent h1 {
+        font-size: 20px;
+    }
+
+    .headerContent {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .headerContent h5 {
+        font-size: 24px;
+    }
+
+    .headerContent h5 span {
+        font-size: 24px;
+    }
+
+    .headerContent h1 {
+        font-size: 20px;
+    }
+
+    .headerContent {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .headerContent h5 {
+        font-size: 24px;
+    }
+
+    .headerContent h5 span {
+        font-size: 24px;
+    }
+
+    .headerContent h1 {
+        font-size: 20px;
+    }
+
+    .headerContent {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .headerContent h5 {
+        font-size: 24px;
+    }
+
+    .headerContent h5 span {
+        font-size: 24px;
+    }
+
+    .headerContent h1 {
+        font-size: 20px;
+    }
+
+    .headerContent {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .headerContent h5 {
+        font-size: 24px;
+    }
+
+    .headerContent h5 span {
+        font-size: 24px;
+    }
+
+    .headerContent h1 {
+        font-size: 20px;
+    }
+
+    .headerContent {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .headerContent h5 {
+        font-size: 24px;
+    }
+
+    .headerContent h5 span {
+        font-size: 24px;
+    }
+
+    .headerContent h1 {
+        font-size: 20px;
+    }
+
+    .headerContent {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+    .headerContent h5 {
+        font-size: 40px;
+    }
+
+    .headerContent h5 span {
+        font-size: 40px;
+    }
+
+    .headerContent h1 {
+        font-size: 24px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}

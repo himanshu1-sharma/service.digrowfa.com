@@ -1,0 +1,407 @@
+.homeHeaderBg {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary);
+    padding: 2rem 0;
+    position: relative;
+}
+
+.homeLogo img {
+    max-width: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.homeHeaderContent {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.homeHeaderContent h1 {
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+
+.homeHeaderContent h1 div div {
+    font-family: boldfont;
+    color: var(--secondary);
+    font-size: 50px;
+    text-align: center;
+    margin-right: 10px;
+    height: 82px;
+}
+
+.homeHeaderText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeHeaderContent p {
+    color: var(--white);
+    font-size: 20px;
+}
+
+.homeHeaderButton button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #053D87 0%, #1074E2 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 4px 59px 5px #1074E2;
+    border: none;
+    outline: none;
+    margin-top: 3rem;
+}
+
+.homeHeaderButton button img {
+    max-width: 70px;
+    transform: rotate(-40deg);
+    transition: 0.3s ease-in-out;
+}
+
+.homeHeaderButton button:hover img {
+    transform: rotate(0deg);
+}
+
+.categoryCardBg {
+    padding: 5rem;
+    background-color: var(--primary);
+    width: 100%;
+}
+
+
+.categoryCardList h2 {
+    font-family: boldfont;
+    text-align: center;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 47px;
+}
+
+.categoryCardList ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.categoryCardBox {
+    background: linear-gradient(180deg, #63BDFF 0%, #004273 100%);
+    /* box-shadow: 0px 4px 59px 5px rgba(79, 163, 255, 0.57); */
+    /* box-shadow: rgba(9, 163, 255, 0.57) 0px 7px 29px 0px; */
+    border-radius: 10px;
+    text-align: center;
+    height: 228px;
+    width: 210px;
+    margin: 2rem 1rem;
+    padding: 2rem 5px;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.categoryCardBox img {
+    max-width: 80px;
+}
+
+.categoryCardBox h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    color: var(--white);
+    font-family: mediumfont;
+}
+
+.categoryCardBox:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .homeHeaderContent {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 24px;
+    }
+
+    .homeHeaderText {
+        display: inherit;
+    }
+
+    .homeHeaderContent h1 div div {
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeHeaderButton button {
+        width: 100px;
+        height: 100px;
+    }
+
+    .homeHeaderButton button img {
+        max-width: 40px;
+    }
+
+    .categoryCardBg {
+        padding: 2rem;
+    }
+
+    .categoryCardList h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .homeHeaderContent {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 24px;
+    }
+
+    .homeHeaderText {
+        display: inherit;
+    }
+
+    .homeHeaderContent h1 div div {
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeHeaderButton button {
+        width: 100px;
+        height: 100px;
+    }
+
+    .homeHeaderButton button img {
+        max-width: 40px;
+    }
+
+    .categoryCardBg {
+        padding: 2rem;
+    }
+
+    .categoryCardList h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .homeHeaderContent {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 24px;
+    }
+
+    .homeHeaderText {
+        display: inherit;
+    }
+
+    .homeHeaderContent h1 div div {
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeHeaderButton button {
+        width: 100px;
+        height: 100px;
+    }
+
+    .homeHeaderButton button img {
+        max-width: 40px;
+    }
+
+    .categoryCardBg {
+        padding: 2rem;
+    }
+
+    .categoryCardList h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .homeHeaderContent {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 24px;
+    }
+
+    .homeHeaderText {
+        display: inherit;
+    }
+
+    .homeHeaderContent h1 div div {
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeHeaderButton button {
+        width: 100px;
+        height: 100px;
+    }
+
+    .homeHeaderButton button img {
+        max-width: 40px;
+    }
+
+    .categoryCardBg {
+        padding: 2rem;
+    }
+
+    .categoryCardList h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .homeHeaderContent {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 24px;
+    }
+
+    .homeHeaderText {
+        display: inherit;
+    }
+
+    .homeHeaderContent h1 div div {
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeHeaderButton button {
+        width: 100px;
+        height: 100px;
+    }
+
+    .homeHeaderButton button img {
+        max-width: 40px;
+    }
+
+    .categoryCardBg {
+        padding: 2rem;
+    }
+
+    .categoryCardList h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .homeHeaderContent {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 24px;
+    }
+
+    .homeHeaderText {
+        display: inherit;
+    }
+
+    .homeHeaderContent h1 div div {
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeHeaderButton button {
+        width: 100px;
+        height: 100px;
+    }
+
+    .homeHeaderButton button img {
+        max-width: 40px;
+    }
+
+    .categoryCardBg {
+        padding: 2rem;
+    }
+
+    .categoryCardList h2 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+    .homeHeaderContent {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {
+    .homeHeaderContent {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {
+    .homeHeaderContent {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {
+    .homeHeaderContent {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {
+    .homeHeaderContent {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {
+    .homeHeaderContent {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1537px) and (max-width: 1920px) {
+    .homeHeaderContent {
+        width: 100%;
+    }
+}
